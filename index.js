@@ -16,7 +16,7 @@ app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(
   cors({
     origin: [
-      "https://inquisitive-kangaroo-5884ee.netlify.app",
+      "https://kaleidoscopic-phoenix-547eb3.netlify.app",
       "http://localhost:3000",
     ],
     credentials: true,
